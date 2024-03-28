@@ -1,0 +1,70 @@
+/* Basic Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header Styling */
+
+  header {
+    background-color: #9EA3B0;
+    padding: 5px;
+  }
+
+  .logo img {
+    float: left;
+    max-width: 70px;
+    height: auto;
+  }
+
+  h1 {
+    color: #546A7B;
+    font-family: "Abril Fatface", serif;
+    font-size: 4em;
+    padding: 0;
+    text-align: center;
+  }
+
+  h2 {
+    color: #c783a5;
+    font-size: 1.5em;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: right;
+    text-transform: lowercase;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #f9e3d5;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: none;
+    color: #B0D0AB;
+  }
+  
+  /* Main Styling */
+
+
+  footer {
+    background-color: #9EA3B0;
+    color: white;
+    font-size: .8em;
+    padding: 3px;
+    text-align: center;
+  }
+  
+  /* Media Queries*/
