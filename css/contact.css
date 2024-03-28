@@ -62,8 +62,26 @@ main {
   padding: 5px;
 }
 
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.reach-me {
+  background-image: url("https://i.ibb.co/pRYgwps/hero-background1.jpg");
+  background-size: cover;
+  height: 130px;
+  width: 80%;
+}
+
+.social-links {
+  padding-bottom: 50px;
+}
 .social-links a {
     margin: 0 10px; 
+}
+.contact-info img {
+  width: 70px; 
 }
 
 .social-links img {
@@ -80,7 +98,6 @@ main {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 form {
@@ -92,7 +109,9 @@ form {
 label {
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333;
+    font-size: 20px;
+    color: #546A7B;
+    font-family: "Abril Fatface", serif;
 }
 
 input, textarea {
@@ -102,6 +121,7 @@ input, textarea {
     margin-bottom: 15px;
     width: 100%;
     font-size: 16px;
+    font-family: "Montserrat", sans-serif;
 }
 
 textarea {
@@ -135,3 +155,14 @@ button:hover {
   }
   
   /* Media Queries*/
+
+    @media only screen and (min-width: 768px) {
+      .contact-info{
+        column-count: 2;
+        column-gap: 50px;
+        .form-container{
+          break-inside: avoid-column;
+        }
+      }
+
+    }
